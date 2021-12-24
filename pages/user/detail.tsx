@@ -1,10 +1,9 @@
-import Link from 'next/link';
+import Layout from '../../components/Layout';
 
 export default function UserDetail() {
   return (
-    <div>
-      <Link href="/">Back to Home</Link>
+    <Layout>
       <h1>User Detail Page</h1>
-    </div>
+    </Layout>
   );
 }

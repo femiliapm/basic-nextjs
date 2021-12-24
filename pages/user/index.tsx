@@ -1,9 +1,9 @@
 import Link from 'next/link';
+import Layout from '../../components/Layout';
 
 export default function Users() {
   return (
-    <div>
-      <Link href="/">Back to Home</Link>
+    <Layout>
       <h1>User Page</h1>
       <main>
         <ul>
@@ -12,6 +12,6 @@ export default function Users() {
           </li>
         </ul>
       </main>
-    </div>
+    </Layout>
   );
 }

@@ -1,10 +1,9 @@
-import Link from 'next/link';
+import Layout from '../components/Layout';
 
 export default function Blog() {
   return (
-    <div>
-      <Link href="/">Back to Home</Link>
+    <Layout>
       <h1 className="title">Blog Page</h1>
-    </div>
+    </Layout>
   );
 }
